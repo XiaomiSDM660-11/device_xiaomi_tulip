@@ -145,6 +145,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=440
 
 
+# FIFO scheduling for UI
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.use_fifo_ui=1
+
 # FRP
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/bootdevice/by-name/frp
